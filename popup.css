@@ -1,0 +1,36 @@
+body {
+    background: #FFF6DC;
+    font-family: cursive ;
+    color: #9E9FA5;
+}
+.wrapper {
+    width: 300px;
+    text-align: center;
+}
+.changeColorBtn {
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    background: #FFC6AC;
+    cursor: pointer;
+    font-family: cursive;
+    font-weight: bold;
+}
+.colorGrid {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+}
+.selectedColor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorValue {
+    margin-left: 5px;
+    font-weight: bold;
+}
